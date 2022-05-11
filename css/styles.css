@@ -22,7 +22,6 @@
 .right{
     flex-grow:4;
 }
-
 .left .profile img{
     width: 100%;
 }
@@ -32,6 +31,7 @@
     font-size:20px;
     color: white;
     text-transform: uppercase;
+    padding-bottom: 15px;
 }
 .subtitle{
     font-weight: 500;
@@ -49,7 +49,7 @@ li{
 
 .item{
     border-bottom: 2px solid #b1eaff;
-    padding: 0 20px;
+    padding: 25px 15px;
 }
 .skills{
     display: flex;
@@ -80,4 +80,10 @@ li{
     height: 100%;
     background: #fff;
 }
+.acc{
+    display: flex;
+}
 
+.item:last-child{
+    border-bottom: 0;
+}
