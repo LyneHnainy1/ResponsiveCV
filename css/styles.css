@@ -27,7 +27,7 @@
     width: 100%;
 }
 
-.title{
+.title{ 
     font-weight: 700;
     font-size:20px;
     color: white;
@@ -43,3 +43,7 @@ ul{
 li{
     display: flex;
 }
+.icon{
+    padding-right: 10px;
+}
+
