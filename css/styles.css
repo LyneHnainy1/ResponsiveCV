@@ -17,6 +17,7 @@
     flex-basis: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .right{
     flex-grow:4;
@@ -26,3 +27,13 @@
     width: 100%;
 }
 
+.title{
+    font-weight: 700;
+    font-size:20px;
+    color: white;
+    text-transform: uppercase;
+}
+.subtitle{
+    font-weight: 500;
+    font-size:16px;
+}
