@@ -19,9 +19,7 @@
     flex-direction: column;
 
 }
-.right{
-    flex-grow:4;
-}
+
 .left .profile img{
     width: 100%;
 }
@@ -86,4 +84,10 @@ li{
 
 .item:last-child{
     border-bottom: 0;
+}
+.right{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
 }
