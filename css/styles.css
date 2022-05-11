@@ -60,4 +60,24 @@ li{
     justify-content: space-between;
     color:#b1eaff
 }
+.language{
+    width: 25%;
+}
+.progBar{
+    width: 60%;
+    margin: 0 7px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+}
+.progPer{
+    width: 15%;
+}
+.progBar span{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    background: #fff;
+}
 
