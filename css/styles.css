@@ -9,4 +9,13 @@
     width:100%;
     height: 100%;
     display:flex;
+    
 }
+.left{
+    flex-grow: 1;
+    background: #22c2fc;
+}
+.right{
+    flex-grow:4;
+}
+
