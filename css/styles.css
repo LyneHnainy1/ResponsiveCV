@@ -21,7 +21,8 @@
    flex:0 1 10%;
 }
 .left .profile img{
-   width:100%;
+    border-radius: 50%;
+    width: 80%;
  }
 .title{     
     font-weight: 900;
