@@ -1,10 +1,9 @@
 /*remove all default margin padding from elements*/
-*{
+* {
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .cv{
     width:100%;
     height: 100%;
@@ -12,19 +11,18 @@
     justify-content: space-between;
 }
 .left{
-    flex-grow: 1;
+
     background: #22c2fc;
     flex-basis: 100px;
     display: flex;
     flex-direction: column;
-
 }
-
 .left .profile img{
     width: 100%;
 }
 
 .title{ 
+    flex-basis: 20%;
     font-weight: 900;
     font-size:20px;
     color: white;
@@ -53,7 +51,7 @@ li{
     display: flex;
     flex-direction: column;
 }
-.content{
+.skills .content{
     display:flex;
     justify-content: space-between;
     color:#b1eaff
@@ -86,7 +84,7 @@ li{
     border-bottom: 0;
 }
 .right{
-    flex-basis: 70%;
+    flex-basis: 80%;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -94,3 +92,19 @@ li{
 .right .title{
     color:#009fd9;
 }
+
+.description,.date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+}
+.education ul li{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 30px;
+}
+
