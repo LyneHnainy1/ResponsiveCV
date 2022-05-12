@@ -66,17 +66,17 @@ li{
     color:#b1eaff
 }
 .language{
-    width: 25%;
+    flex:0 1 25%;
 }
 .progBar{
-    width: 60%;
-    margin: 0 7px;
+    flex:0 1 60%;
+    margin: 0 5px;
     height: 5px;
     background: #009fd9;
     position: relative;
 }
 .progPer{
-    width: 15%;
+    flex:0 1 15%;
 }
 .progBar span{
     position: absolute;
