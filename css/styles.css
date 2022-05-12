@@ -108,9 +108,19 @@ li{
    padding-bottom: 30px;
 }
 
-.hobbies .list{
+.right .hobbies i{
     display: flex;
 }
 
 
+.hobbies-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
 
+.hobbies-list i{
+    width:80px;
+    height: 80px;
+}
