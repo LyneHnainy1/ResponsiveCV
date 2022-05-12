@@ -1,2 +1,2 @@
 # ResponsiveCV
-https://lynehnainy1.github.io/ResponsiveCV/
+https://lynn-hnainy.github.io/ResponsiveCV/
