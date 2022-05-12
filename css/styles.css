@@ -17,9 +17,12 @@
     display: flex;
     flex-direction: column;
 }
-.left .profile img{
-    width: 100%;
+.left .profile{
+   flex-basis:10%;
 }
+.left .profile img{
+    width:100%
+ }
 
 .title{     
     font-weight: 900;
@@ -31,6 +34,7 @@
 .subtitle{
     font-weight: 700;
     font-size:16px;
+    padding-bottom: 30px;
 }
 ul{
     list-style: none;
@@ -120,7 +124,23 @@ li{
     margin-top: 5%;
 }
 
-.hobbies-list i{
-    width:80px;
+.hobbies-list .icon{
+    font-size: 20px;
+    width: 80px;
     height: 80px;
+    border:2px solid #009fd9;
+    border-radius: 50%;
+    color:#009fd9;
+    position: relative;
 }
+
+.hobbies-list .icon i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+p:first-child{
+    padding: 0;
+}
+
