@@ -11,19 +11,18 @@
     justify-content: space-between;
 }
 .left{
-    flex-grow: 2;
+    flex:0 1 10%;
     background: #22c2fc;
-    flex-basis: 20%;
     display: flex;
     flex-direction: column;
 }
 .left .profile{
-   flex-basis:10%;
+   flex:1;
+   flex:0 1 10%;
 }
 .left .profile img{
-    width:100%
+   width:100%;
  }
-
 .title{     
     font-weight: 900;
     font-size:20px;
@@ -35,6 +34,12 @@
     font-weight: 700;
     font-size:16px;
     padding-bottom: 30px;
+}
+.personalInfo{
+    flex:0 1 30%;
+}
+.description{
+    color:#b1eaff;
 }
 ul{
     list-style: none;
@@ -53,6 +58,7 @@ li{
 .skills{
     display: flex;
     flex-direction: column;
+    flex:0 1 30%;
 }
 .skills .content{
     display:flex;
@@ -79,15 +85,22 @@ li{
     height: 100%;
     background: #fff;
 }
-.acc{
-    display: flex;
-}
 
+.social{
+    display: flex;
+    flex-direction: column;
+    flex:0 1 30%;
+}
+.social .acc{
+    display: flex;
+    flex-wrap:wrap;
+    min-height: 0;
+}
 .item:last-child{
     border-bottom: 0;
 }
 .right{
-    flex-basis: 80%;
+    flex:0 1 90%;
     flex-grow: 8;
     display: flex;
     flex-direction: column;
@@ -139,8 +152,5 @@ li{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-}
-p:first-child{
-    padding: 0;
 }
 
